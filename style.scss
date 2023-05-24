@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 #formularz {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 3px black;
   background-color: lightgray;
+  font-family: 'Montserrat', sans-serif;
 }
 #tytul {
   color: blue;
@@ -13,9 +14,10 @@
   margin-top: 20vh;
   width: 40vw;
   border: 3px solid blue;
+  border-radius: 5px;
   top: 40%;
   left: 40%;
-  height: 40.5vh;
+ 
 }
 input {
   border: 3px solid blue;
