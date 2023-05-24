@@ -1,0 +1,38 @@
+#formularz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px black;
+  background-color: lightgray;
+}
+
+#tytul {
+  color: blue;
+}
+
+#main {
+  margin-top: 20vh;
+  width: 40vw;
+  border: 3px solid blue;
+  top: 40%;
+  left: 40%;
+  height: 40.5vh;
+}
+
+input {
+  border: 3px solid blue;
+  border-radius: 3px;
+  height: 2vh;
+  width: 10vw;
+}
+
+#haslo {
+  margin-bottom: 5vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
