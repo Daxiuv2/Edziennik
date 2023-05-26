@@ -1,3 +1,52 @@
 table {
-  background-color: red;
+  border: solid black 3px;
+  border-spacing: 0px;
+}
+
+tr {
+  border: solid black 3px;
+}
+
+td {
+  width: 10vw;
+  height: 10vh;
+  border: solid black 3px;
+}
+
+th {
+  width: 10vw;
+  height: 10vh;
+  border-bottom: solid black 5px;
+  border-left: solid black 5px;
+}
+
+#dziennik {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#thnumer {
+  background-color: aqua;
+}
+
+#thimie {
+  background-color: yellow;
+}
+
+#thnazwisko {
+  background-color: orange;
+}
+
+#thocena {
+  background-color: greenyellow;
+}
+
+#thdata {
+  background-color: bisque;
+}
+
+#thprzedmiot {
+  background-color: pink;
 }/*# sourceMappingURL=style2.css.map */
