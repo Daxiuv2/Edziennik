@@ -1,7 +1,7 @@
-//a tu pisze style do logowania 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@mixin gradienttxt{
-  background-image: linear-gradient(45deg,orange,blue);
+//a tu pisze style do logowania
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@mixin gradienttxt {
+  background-image: linear-gradient(45deg, orange, blue);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -10,25 +10,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #F9F5F6;
-  font-family: 'Montserrat', sans-serif;
+  background-color: #f9f5f6;
+  font-family: "Montserrat", sans-serif;
 }
 #tytul {
   font-size: 4rem;
   color: blue;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 10vh;
- 
 }
-#detal{
+#detal {
   color: orange;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-h2{
+h2 {
   font-size: 2rem;
   margin-bottom: 2vh;
   color: blue;
-
 }
 #main {
   width: 40vw;
@@ -36,8 +34,6 @@ h2{
   border-radius: 5px;
   top: 40%;
   left: 40%;
-
- 
 }
 input {
   border: 3px solid blue;
@@ -45,7 +41,7 @@ input {
   height: 2vh;
   width: 20vw;
   height: 5vh;
-  font-size:2rem
+  font-size: 2rem;
 }
 #haslo {
   margin-bottom: 5vh;
@@ -56,14 +52,27 @@ body {
   align-items: center;
   flex-direction: column;
 }
-#przycisk{
+#przycisk {
   border: 3px solid blue;
   border-radius: 3px;
-  background-color: #F9F5F6;
+  background-color: #f9f5f6;
   margin-bottom: 5vh;
   width: 10vw;
   height: 5vh;
   font-size: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: blue;
+}
+#info {
+  margin-top: 5vh;
+  border: 3px solid orange;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#komunikat {
+  font-size: 1.5rem;
+  color: blue;
+  font-family: "Montserrat", sans-serif;
 }

@@ -22,9 +22,15 @@ th {
 
 #dziennik {
   margin-top: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #thnumer {
@@ -49,4 +55,5 @@ th {
 
 #thprzedmiot {
   background-color: pink;
-}/*# sourceMappingURL=style2.css.map */
+}
+/*# sourceMappingURL=style2.css.map */
