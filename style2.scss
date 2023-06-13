@@ -1,45 +1,63 @@
-//tu pisze style do tablicy jak cos 
-table{
-    border: solid black 3px;
-    border-spacing: 0px;
+//tu pisze style do tablicy jak cos
+table {
+  border: solid black 3px;
+  border-spacing: 0px;
 }
-tr{
-    border: solid black 3px;
+tr {
+  border: solid black 3px;
 }
 
-td{
-    width: 10vw;
-    height: 10vh;
-    border: solid black 3px;
-    
+td {
+  width: 10vw;
+  height: 10vh;
+  border: solid black 3px;
 }
-th{
-    width: 10vw;
-    height: 10vh;
-    border-bottom: solid black 5px;
-    border-left: solid black 5px;
+th {
+  width: 10vw;
+  height: 10vh;
+  border-bottom: solid black 5px;
+  border-left: solid black 5px;
 }
-#dziennik{
-    margin-top: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#ui {
+  display: flex;
+  flex-direction: row;
 }
-#thnumer{
-    background-color: aqua;
+#dziennik {
+  border: 3px solid yellow;
+  display: flex;
+  width: 45vw;
 }
-#thimie{
-    background-color: yellow;
+#thnumer {
+  background-color: aqua;
 }
-#thnazwisko{
-    background-color: orange;
+#thimie {
+  background-color: yellow;
 }
-#thocena{
-    background-color: greenyellow;
+#thnazwisko {
+  background-color: orange;
 }
-#thdata{
-    background-color: bisque;
+#thocena {
+  background-color: greenyellow;
 }
-#thprzedmiot{
-    background-color: pink;
+#thdata {
+  background-color: bisque;
+}
+#thprzedmiot {
+  background-color: pink;
+}
+#account {
+  border: 3px solid red;
+  width: 50vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+#navi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid blue;
+  width: 30vw;
 }
