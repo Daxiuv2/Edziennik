@@ -1,19 +1,25 @@
 //tu pisze style do tablicy jak cos
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@mixin fontdotablicy {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+}
 table {
   border: solid black 3px;
   border-spacing: 0px;
+  font-family: "Montserrat", sans-serif;
 }
 tr {
   border: solid black 3px;
 }
 
 td {
-  width: 10vw;
+  width: 15vw;
   height: 10vh;
   border: solid black 3px;
 }
 th {
-  width: 10vw;
+  width: 14vw;
   height: 10vh;
   border-bottom: solid black 5px;
   border-left: solid black 5px;
@@ -25,32 +31,33 @@ th {
 #dziennik {
   border: 3px solid yellow;
   display: flex;
-  width: 45vw;
+  width: 80vw;
 }
 #thnumer {
+  @include fontdotablicy();
+  width: 3vw;
   background-color: aqua;
 }
 #thimie {
+  @include fontdotablicy();
   background-color: yellow;
 }
 #thnazwisko {
+  @include fontdotablicy();
   background-color: orange;
 }
 #thocena {
+  @include fontdotablicy();
+  width: 5vw;
   background-color: greenyellow;
 }
-#thdata {
-  background-color: bisque;
-}
-#thprzedmiot {
-  background-color: pink;
-}
+
 #account {
   border: 3px solid red;
-  width: 50vw;
+  width: 97vw;
   height: 30vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 #navi {
@@ -60,4 +67,42 @@ th {
   flex-direction: column;
   border: 3px solid blue;
   width: 30vw;
+}
+#nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  //   border: 3px solid orange;
+  padding-left: 0;
+  width: 30vw;
+}
+#hdr {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style-type: none;
+  list-style-position: inside;
+}
+li {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid green;
+  width: 30vw;
+  height: 6vh;
+  font-size: 1.7rem;
+  :hover {
+    border: black;
+    color: green;
+  }
+}
+#login {
+  font-family: "Montserrat", sans-serif;
 }

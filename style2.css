@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 table {
   border: solid black 3px;
   border-spacing: 0px;
+  font-family: "Montserrat", sans-serif;
 }
 
 tr {
@@ -8,13 +10,13 @@ tr {
 }
 
 td {
-  width: 10vw;
+  width: 15vw;
   height: 10vh;
   border: solid black 3px;
 }
 
 th {
-  width: 10vw;
+  width: 14vw;
   height: 10vh;
   border-bottom: solid black 5px;
   border-left: solid black 5px;
@@ -35,43 +37,45 @@ th {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 45vw;
+  width: 80vw;
 }
 
 #thnumer {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  width: 3vw;
   background-color: aqua;
 }
 
 #thimie {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
   background-color: yellow;
 }
 
 #thnazwisko {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
   background-color: orange;
 }
 
 #thocena {
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  width: 5vw;
   background-color: greenyellow;
-}
-
-#thdata {
-  background-color: bisque;
-}
-
-#thprzedmiot {
-  background-color: pink;
 }
 
 #account {
   border: 3px solid red;
-  width: 50vw;
+  width: 97vw;
   height: 30vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 #navi {
@@ -90,5 +94,64 @@ th {
           flex-direction: column;
   border: 3px solid blue;
   width: 30vw;
+}
+
+#nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 0;
+  width: 30vw;
+}
+
+#hdr {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+li {
+  font-family: "Montserrat", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 3px solid green;
+  width: 30vw;
+  height: 6vh;
+  font-size: 1.7rem;
+}
+
+li :hover {
+  border: black;
+  color: green;
+}
+
+#login {
+  font-family: "Montserrat", sans-serif;
 }
 /*# sourceMappingURL=style2.css.map */
