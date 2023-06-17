@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Czas generowania: 15 Cze 2023, 06:45
+-- Czas generowania: 17 Cze 2023, 17:16
 -- Wersja serwera: 8.0.31
 -- Wersja PHP: 8.0.26
 
@@ -45,7 +45,7 @@ CREATE TABLE IF NOT EXISTS `nauczyciel` (
 
 INSERT INTO `nauczyciel` (`id_nauczyciela`, `imie`, `nazwisko`, `email`, `nazwa_uzytkownika`, `haslo`, `zalogowany`) VALUES
 (0, 'Marcin', 'Bąk', 'm.bak@szkola.pl', 'mbak', 'mbak', 0),
-(1, 'Dmytro', 'Domański', 'd.domanski@szkola.pl', 'ddomanski', 'ddomanski', 0),
+(1, 'Dmytro', 'Domański', 'd.domanski@szkola.pl', 'ddomanski', 'ddomanski', 1),
 (2, 'Weronika', 'Dobrowolska', NULL, 'wdobrowolska', 'wdobrowolska', 0);
 
 -- --------------------------------------------------------
@@ -484,6 +484,7 @@ DROP TABLE IF EXISTS `przedmiot`;
 CREATE TABLE IF NOT EXISTS `przedmiot` (
   `id_przedmiotu` int NOT NULL,
   `nazwa` varchar(40) COLLATE utf8mb4_general_ci NOT NULL,
+  `wyswietlany` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id_przedmiotu`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -491,19 +492,19 @@ CREATE TABLE IF NOT EXISTS `przedmiot` (
 -- Zrzut danych tabeli `przedmiot`
 --
 
-INSERT INTO `przedmiot` (`id_przedmiotu`, `nazwa`) VALUES
-(0, 'Matematyka'),
-(1, 'Język polski'),
-(2, 'Język angielski'),
-(3, 'Informatyka'),
-(4, 'Historia'),
-(5, 'Geografia'),
-(6, 'Wychowanie fizyczne'),
-(7, 'Religia'),
-(8, 'Język niemiecki'),
-(9, 'Biologia'),
-(10, 'Chemia'),
-(11, 'Fizyka');
+INSERT INTO `przedmiot` (`id_przedmiotu`, `nazwa`, `wyswietlany`) VALUES
+(0, 'Matematyka', 1),
+(1, 'Język polski', 0),
+(2, 'Język angielski', 0),
+(3, 'Informatyka', 0),
+(4, 'Historia', 0),
+(5, 'Geografia', 0),
+(6, 'Wychowanie fizyczne', 0),
+(7, 'Religia', 0),
+(8, 'Język niemiecki', 0),
+(9, 'Biologia', 0),
+(10, 'Chemia', 0),
+(11, 'Fizyka', 0);
 
 -- --------------------------------------------------------
 
